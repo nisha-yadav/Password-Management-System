@@ -4,7 +4,7 @@ import os
 from random import randint
 class app:
 	def Return(wn):
-		messagebox.showinfo("Logged Out","You have logged out")
+		messagebox.showinfo("Logged Out!","You have logged out")
 		wn.destroy()
 		app.Main()
 
